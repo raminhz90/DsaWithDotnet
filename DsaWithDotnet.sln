@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE1119E3-FEC0-462A-88B9-40EE4CF79569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsaDotnet.TwoSum", "src\DsaDotnet.TwoSum\DsaDotnet.TwoSum.csproj", "{1F52741D-FF15-42B2-965C-332EB1E3C0D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F3EABB1B-8B04-4021-BF54-A39CEF0963EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twosumtest", "test\twosumtest\twosumtest.csproj", "{84B4843A-B3A4-4EC7-A1CF-828995057181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{BB585704-BBA0-4130-B058-91B209CB5151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twosumbenchmark", "benchmark\twosumbenchmark\twosumbenchmark.csproj", "{E1571DF2-CA38-44D6-A1B8-622498123911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F52741D-FF15-42B2-965C-332EB1E3C0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F52741D-FF15-42B2-965C-332EB1E3C0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F52741D-FF15-42B2-965C-332EB1E3C0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F52741D-FF15-42B2-965C-332EB1E3C0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B4843A-B3A4-4EC7-A1CF-828995057181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B4843A-B3A4-4EC7-A1CF-828995057181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B4843A-B3A4-4EC7-A1CF-828995057181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B4843A-B3A4-4EC7-A1CF-828995057181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1571DF2-CA38-44D6-A1B8-622498123911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1571DF2-CA38-44D6-A1B8-622498123911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1571DF2-CA38-44D6-A1B8-622498123911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1571DF2-CA38-44D6-A1B8-622498123911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F52741D-FF15-42B2-965C-332EB1E3C0D8} = {DE1119E3-FEC0-462A-88B9-40EE4CF79569}
+		{84B4843A-B3A4-4EC7-A1CF-828995057181} = {F3EABB1B-8B04-4021-BF54-A39CEF0963EA}
+		{E1571DF2-CA38-44D6-A1B8-622498123911} = {BB585704-BBA0-4130-B058-91B209CB5151}
+	EndGlobalSection
+EndGlobal
